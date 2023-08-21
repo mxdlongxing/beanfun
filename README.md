@@ -1,6 +1,6 @@
 # Beanfun
 
-[![GitHub all releases](https://img.shields.io/github/downloads/pungin/Beanfun/total)](https://github.com/pungin/Beanfun/releases)
+[![GitHub all releases](https://img.shields.io/github/downloads/mxdlongxing/Beanfun/total)](https://github.com/mxdlongxing/Beanfun/releases)
 
 遊戲橘子數位科技旗下遊戲的啟動器
 
@@ -14,7 +14,7 @@
 
 ## Download
 
-Download available at <https://github.com/pungin/Beanfun/releases/latest>.
+Download available at <https://github.com/mxdlongxing/Beanfun/releases/latest>.
 
 ## Getting Started
 
