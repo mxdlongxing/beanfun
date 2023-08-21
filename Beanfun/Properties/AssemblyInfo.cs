@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("繽放")]
 [assembly: AssemblyDescription("第三方樂豆客戶端")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Pungin")]
+[assembly: AssemblyCompany("mxdlongxing")]
 [assembly: AssemblyProduct("Beanfun")]
-[assembly: AssemblyCopyright("Copyright © Pungin  2017-2022")]
+[assembly: AssemblyCopyright("Copyright © mxdlongxing  2017-2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

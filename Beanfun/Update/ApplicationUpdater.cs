@@ -8,7 +8,7 @@ namespace Beanfun.Update
 {
     class ApplicationUpdater
     {
-        private static string baseUrl = $"https://raw.githubusercontent.com/pungin/Beanfun/{ (ConfigAppSettings.GetValue("updateChannel", "Stable").Equals("Stable") ? "master" : "beta") }/";
+        private static string baseUrl = $"https://raw.githubusercontent.com/mxdlongxing/Beanfun/{ (ConfigAppSettings.GetValue("updateChannel", "Stable").Equals("Stable") ? "master" : "beta") }/";
 
         internal static void CheckApplicationUpdate(bool show)
         {
@@ -42,7 +42,7 @@ namespace Beanfun.Update
                     MessageBoxResult result = MessageBox.Show(string.Format((Application.Current.TryFindResource("NewVersionDetected") as string).Replace("\\r\\n", "\r\n"),
                         App.ConvertVersion(version), App.ConvertVersion(crtVer), note),
                         Application.Current.TryFindResource("UpdateCheck") as string, MessageBoxButton.OKCancel);
-                    if (result == MessageBoxResult.OK) Process.Start("https://github.com/pungin/Beanfun/releases");
+                    if (result == MessageBoxResult.OK) Process.Start("https://github.com/mxdlongxing/Beanfun/releases");
                 }
                 catch (Exception) { }
             }
